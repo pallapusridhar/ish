@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+.life{margin-left: 60px;
+    margin-top: 40px;
+    
+}
+
+.life-1{
+    font-size: 19px;
+
+    
+}
+
+
+.life-2{
+    font-size: 50px;
+    margin-top: 20px;text-align: justif;
+
+}
+.life-3{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 70%;
+    
+
+}
+.dis{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.fee{
+    border: 1px solid black;
+   text-decoration: none ;
+   padding: 10px; 
+   background-color: blue;
+   color: white;
+   border-radius: 10px;
+
+
+}
+.fee:hover{
+    background-color: orange;
+    color: black;
+}
+.feee{border: 1px solid black;
+    text-decoration: none ;
+    padding: 10px; 
+    background-color: blue;
+    color: white;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.feee:hover{
+    background-color: orange;
+    color: black;
+}.sri{
+    margin-left: 1090px;
+    margin-top: -100px;
+    height: 300px;
+    width: 250px;
+    background-color: #2c2f74;  
+}
+.sri>ul>li{
+    padding: 15px;
+    font-size: 19px;
+    list-style: none;
+}
+
+.co-cur{
+    background-color: orange;
+}
+.sri>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.sri>ul>li>a:hover{
+    text-decoration: underline;
+    
+}
+    
+
+
+/* lap-top */
+@media screen and (min-width:769px) and (max-width:1025px) {
+  .sri{
+    margin-left: 600px;
+    margin-top: -350px;
+  } 
+  .dis{
+    margin-left: 30px;
+    position: relative;
+    top:100px
+  } 
+  .life-3{
+    width: 50%;
+  }
+  .sri{
+    margin-left: 700px;
+    
+  }
+}
+
+/* tablet */
+@media screen  and (min-width:426px) and (max-width:769px){
+    .life-2{
+        font-size: 30px;
+    }
+    .life-1{
+        font-size: 15px;
+    }
+    .life-3{
+        font-size: 15px;
+        width: 50%;
+        
+    }
+    .dis{
+        margin-left: -20px;
+        transform: translate(20px,40px);
+        
+
+    }
+    
+    
+    
+    .fee{
+        border: 1px solid black;
+        width: 280px;
+        height: 55px;
+        font-size: 10px;
+        background-color: blue;
+    
+    
+    }
+    .fee:hover{
+        background-color: orange;
+        color: black;
+    
+        
+    }
+    .feee{
+        border: 1px solid black;
+        width: 280px;
+        height: 55px;
+        font-size: 10px;
+        background-color: blue;
+               
+    
+    
+    }
+    .feee:hover{
+        background-color: orange;
+        color: black;
+    
+        
+    }
+    .sri{ transform: translate(-650px, -230px);
+        width: 200px;
+        height: 290px;
+   }
+    
+}
+  /*mobile */
+  @media screen and (max-width:426px) {
+    .life{
+        font-size: 30px;
+    }.life-1{
+        font-size: 30px;
+    }.life-2{
+        font-size: 50px;
+    }
+    .life-3{
+        font-size: 30px;
+    }
+    .fee{
+        font-size: 20px;
+        height: 140px;
+        width: 270px;
+    }
+    .feee{
+        font-size: 20px;
+        height: 140px;
+        width: 270px;
+    }
+    .dis{
+        margin-left: -1px;
+    }
+    
+    .sri{
+        transform: translate(-800px,-600px);
+    }
+}
+    
+  

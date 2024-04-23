@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main>p,ul>li{
+    
+    text-align: justify;
+    font-size: 19px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.main>h1,h3,a{
+    margin-left: 50px;
+    padding: 10px;
+}
+.main{
+    background-color: white;
+    margin: 20px 90px   ;
+}
+body{
+    background-color: beige;
+}
+.main>ul>li{
+    margin-left: 120px;
+}

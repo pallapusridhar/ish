@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main>p,img{
+    margin-right: 400px;
+    text-align: justify;
+    font-size: 19px;
+    margin-left: 50px;
+    padding: 10px;
+}
+ul>li{
+    font-size: 19px;
+}
+.main>a,h1,h3,ul,li{
+    margin-left: 50px;
+    padding: 10px;
+}
+body{
+    background-color: bisque;
+ }
+ .main{
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .images>img{
+    width: 67%;
+ }

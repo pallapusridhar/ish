@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.adm{margin-left: 40px;
+    margin-top: 40px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.arrow{
+    font-size: 19px;
+    
+}
+.wel{
+    font-size: 50px;
+    margin-top: 20px;text-align: justif;
+    font-family: open Sans;
+
+}
+.apply{
+    font-size: 20px;
+    border: 1px solid black;
+    width: 15vw;background-color: blue;
+    list-style: none;
+    text-decoration: none;transform: translate(1000px ,10px);
+
+    
+
+
+}
+.apply:hover{
+    background-color: blue;
+    color: white;
+}
+.wel1{
+    
+    margin-top: 20px;
+    
+
+}
+.adm>p{
+    font-size: 20px;
+    width: 70%;
+    margin-top: 20PX;
+}
+.school{
+    width: 130px;
+    height: 130px;
+    margin-left: 650px;
+}
+.first{margin-left: 650px;
+    margin-top: 15px;
+
+}
+.start{
+    font-size: 19px;
+    margin-left: 600px;
+    background-color: lightgrey;}
+.start1{
+
+    font-size: 19px;
+    margin-left: 630px;
+    background-color: lightgrey;
+}
+.paper{
+    font-size: 20px;
+      position: relative;
+      top: 15px;
+    margin-left: 500px;
+    margin-bottom: 800px;
+ }.sri{
+    margin-left: 1090px;
+    margin-top: -950px;
+    height: 300px;
+    width: 250px;
+    background-color: #2c2f74;  
+}
+.sri>ul>li{
+    padding: 15px;
+    font-size: 19px;
+    list-style: none;
+}
+
+.co-cur{
+    background-color: orange;
+}
+.sri>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.sri>ul>li>a:hover{
+    text-decoration: underline;
+    
+}
+  /* lop -top */
+
+   @media screen and (min-width:769px) and (max-width:1025px) {
+    .sri{
+        margin-left: 680px;
+        width: 200px;
+    }
+    .school{
+        margin-left: 400px;
+    }
+    .first{
+        margin-left: 400px;
+    }
+    .start{
+        margin-left: 400px;
+    }
+    .start1{
+        margin-left: 400px;
+    }.paper{
+        margin-left: 300px;
+        
+    }
+    
+  } 
+
+      /* tablet */
+      @media screen and (min-width:426px) and (max-width:769px){
+        .arrow{ font-size: 25px;
+
+        }
+        .wel{
+            font-size: 35px;
+        }
+        .wel1{
+            font-size: 20px;
+        }
+        .wel2{
+            font-size: 20px;
+        }
+        .adm>p{
+            width: 60%;
+        }
+        .school{
+            transform: translate(-350px,-40px);
+            margin-top: 80px;
+
+        }
+        .first{
+            transform: translate(-350px,0px);
+            font-size: 10px;
+
+        }
+        .school{
+            transform: translate(-350px.0px);
+        }.start{
+            position: relative;
+            left: -200px;
+            top:-20px;
+        }
+        .paper{
+            position: relative;
+            left: -300px;
+        }
+        .paper>a{position: relative;
+            left: -300px;
+
+        }
+        .start1{
+            position: relative;
+            left: -200px;
+            top:-20px;
+        }.pap{position: relative;
+            left: 200px;
+
+        }
+        .sri{
+             transform: translate(-630px ,-650px);
+        }
+      }
+
+
+      /* mobile */
+      @media screen and (max-width:426px) {
+         .arrow{
+            font-size: 35px;
+         }
+         .adm{
+            font-size: 25px;
+         }
+         .wel{
+            font-size: 50px;
+         }.adm>p{
+            font-size: 35px;
+            
+         }
+         .paper{
+            position: relative;
+            left: -150px;
+         }
+         .school{
+        position: relative;
+        left: -300px;
+         }
+         .first{
+        position: relative;
+        left: -300px;
+            font-size: 30px;
+         }.start{
+            position: relative;
+            left: -100px;
+            top: -100px;
+         }
+         .start1{
+            position: relative;
+            left: -100px;
+            top: -50px;
+         }.pap{
+            position: relative;
+            left: 480px;
+            top: -30px;
+         }
+
+
+
+
+
+         .sri{
+            transform: translate(-750px,-5500px);
+         }
+         }
+        

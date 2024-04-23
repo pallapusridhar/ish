@@ -1,0 +1,490 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+.app{
+        
+    
+    background-color: rgb(149, 213, 192);
+    width: 100vw;
+    height: 136vh;
+
+
+}
+.menu{
+    
+    font-size:20px;
+    background-color: white;
+    width: 100vw;
+    height: 11vh;
+    
+    
+}
+.mean1{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 6vh;
+    width: 8vw;border-width: 0px;
+}
+.mean1:hover{
+    background-color: rgb(150, 238, 19);
+    color:red ;
+}
+.mean2{ font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    border-width: 0px;
+
+}
+.mean2:hover{
+    background-color: rgb(150, 238, 19);
+    color:red ;
+}
+.now{
+    display: flex;
+    font-size: 20px;
+    margin-left: 1300px;
+    margin-top: -40px;
+
+}
+.sign{background-color: rgb(106, 181, 106);
+    color: aliceblue;
+    padding-left: 5px;padding-right: 5px;
+    margin-left: 10px;
+    height: 40px;
+
+    
+}
+.reg{
+    background-color: rgb(106, 181, 106);
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 10px;
+}
+ .colour{
+    background-color: rgb(38, 52, 75);
+    width: 18vw;
+    height: 100vh;
+
+    
+}
+.col{
+padding: 10px;
+    margin-left: 10px;
+}
+ .col>p{
+    font-size: 18px;
+    color:  rgb(98, 141, 215);
+    margin-bottom: 20px;
+}
+
+    
+.hom>a{
+    background-color: rgb(38, 52, 75)   ;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 240px;
+    padding: 4px;
+    margin-top: 10px
+    
+    
+}
+  .hom>a:hover{
+    color: rgb(69, 114, 133);
+    background-color: rgb(48, 75, 92);
+    padding-left: 18px; 
+    padding-right: 50px;  
+}  
+.hom-1>a{
+    color: white;
+    background-color: rgb(38, 52, 75) ;
+    padding-left: 0px;
+    padding: 10px;
+    font-size: 15px;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+ .all:hover{
+    color: rgb(69, 114, 133);
+    background-color: rgb(48, 75, 92);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+} 
+.hom-2>a{
+    color: white;
+    background-color: rgb(38, 52, 75) ;
+    padding-left: 50px;
+    padding: 10px;
+    font-size: 15px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+    text-decoration: none;
+
+}
+.hom-2{
+    margin-top: 20px;
+}
+.alla:hover{
+    color: rgb(69, 114, 133);
+    background-color: rgb(48, 75, 92);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+} 
+.hom-3>a{
+    color: white;
+    background-color: rgb(38, 52, 75) ;
+    padding-left: 50px;
+    padding: 1px;
+    font-size: 15px;
+    padding-right: 1px;
+    text-decoration: none;
+
+}
+.hom-3{
+    margin-top: 20px;
+}
+ .all-1:hover{
+    color: rgb(69, 114, 133);
+    background-color: rgb(48, 75, 92);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+} 
+.hom-4{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 5px;
+    color: rgb(98, 141, 215);
+}
+
+.india>a{
+    color: white;
+    background-color: rgb(38, 52, 75) ;
+    padding-left: 50px;
+    padding: 10px;
+    font-size: 15px;
+    padding-right: 159px;
+    text-decoration: none;
+
+
+}
+@media screen and (min-width:769px) and (max-width:1025px) {
+  .india>a{
+    width: 0px;
+    margin-top: 5px;
+    padding-right: 2px;
+  } 
+  .hom-3>a{ width: 0px;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-size: 10px;
+  } 
+  .hom-1>a{
+    margin-top: 10px;
+    padding-right: 0px;
+    font-size: 15px;
+  }
+  .hom-2>a{ width: 0px;
+    margin-top: 10px;
+    padding-right: 0px;
+    font-size: 10px;
+  }.far{
+    position: relative;
+    left: -50px;
+    top: -150px;
+  }
+  .all-2{
+    width: 50px;
+    margin-right: -10px;
+    margin-top: 100px;
+  }
+  .hom-4{
+    margin-top: 60px;
+  }
+}
+.india{
+    width: 20px;
+    margin-top: 10px;
+}
+.all-2:hover{
+    color: rgb(69, 114, 133);
+    background-color: rgb(48, 75, 92);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+
+}
+
+.far{
+    font-size: 18px;
+    margin-top: 423px;
+    color: yellow;
+    margin-left: 80px;
+    margin-top: 300px;
+}
+.schol{
+    background-color: rgb(249, 244, 244);
+    width: 60vw;
+    height: 125vh;
+    margin-left: 290px;
+    margin-top: -710px;
+}
+.blue{
+    background-color: blue   ;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+
+}
+.welcom{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+.reg{
+    font-size: 15px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}    
+.user{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.first{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+input{
+    margin-left: 50px;
+    width: 400px;
+    height: 25px;
+}
+.sec{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+input{
+    margin-left: 50px;
+    width: 400px;
+    height: 25px;
+}
+.gender{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.gender>select{
+    margin-left: 120px;
+    width: 400px;
+    height: 25px;
+}
+.block{
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 20px;
+    color: blue;
+    background-color: rgb(129, 210, 228);
+}
+.pass{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.pass>input{
+    margin-left: 110px;
+}
+.password{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.password>input{
+    margin-left: 30px;
+    
+}
+.mobile{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.mobile>input{
+    margin-left: 110px;
+}.input{
+    margin-left: 234px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}.team{
+    display: flex;
+    padding: 20px;
+    margin-left: 500px;
+}
+.team>button{
+    padding: 10px;
+
+}
+
+
+
+.collage{
+    margin-left: 1250px;margin-top: -850px;
+
+}
+.age{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.milk{
+    
+    border: 1px solid blue;
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+padding-right: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.map{
+    width: 15vw;
+    height: 22vh;
+    margin-top: 300px;
+}
+
+
+/* lap-top */
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .mean1{
+        font-size: 10px;
+        width: 50px;
+        position: relative;
+        left: -60px;
+        height: 20px;
+    }
+    .mean2{font-size: 10px;
+        width: 200px;
+        position: relative;
+        left: -60px;
+
+        
+    }
+    .schol{
+        margin-top: -630px;
+        margin-left: 200px;
+    }
+     .sign{
+        margin-left: -600PX;
+        font-size: 10px;
+        width: 50px;
+        height: 30px;
+        margin-top: 10px;
+ }.reg{margin-left: -1PX; 
+        font-size: 10px;
+        width: 50px;
+        height: 30px;
+        margin-top: 10px;
+
+    }.hom-1{ 
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: -200px;
+    }
+    .first{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .user{
+        margin-top: -5px;
+        margin-bottom: -1px;
+    }
+    
+    .sec{
+        font-size: 15px;
+        margin-left: 10px;
+    }.gender{
+        font-size: 15px;
+        margin-left: 10px;
+    }.block{
+        padding: 0px;
+        font-size: 15px;
+        margin-left: 150px;
+        width: 300px;
+        margin-top: -10px;
+        height: 60px;
+    }
+    .pass{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 10px;
+    
+    }
+    .password{
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 10px;
+    
+    }.mobile{
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 10px;
+    
+    }
+    
+    
+    .input{
+          position: relative;
+          left: -49px;
+    }
+    .pall{
+        font-size: 15px;
+        margin-bottom: -10px;
+    }
+    .team{
+        font-size: 15px;
+        width: 25px;
+        position: relative;
+        left: -100px;
+        margin-top: -20px;
+        
+        
+    }
+    .milk{
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .age{
+        font-size: 15px;margin-top: 100px;
+    }
+    .collage{
+       position: relative;
+       left: -400px;
+    }   
+    
+}
+ /* tablat */
+ @media screen and (min-width:426px) and (max-width:769pxpx) {
+    
+ .menu{
+    font-size: 1px;
+    margin-left: -10px;
+ 
+ }.schol{
+    
+ }
+}
+
+
+
+
+
+
