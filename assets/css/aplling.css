@@ -473,15 +473,13 @@ padding-right: 20px;
 }
  /* tablat */
  @media screen and (min-width:426px) and (max-width:769pxpx) {
-    
- .menu{
-    font-size: 1px;
+ .mean1{
+    font-size: 12px;
     margin-left: -10px;
+ }   
  
- }.schol{
-    
  }
-}
+
 
 
 
